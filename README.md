@@ -28,7 +28,7 @@ $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 This creates a new ssh key, using the provided email as a label.
 ```
-- Generating public/private rsa key pair.
+Generating public/private rsa key pair.
 ```
 3.	When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location.
 ```
