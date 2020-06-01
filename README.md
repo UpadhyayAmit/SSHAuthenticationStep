@@ -2,9 +2,9 @@
 
 ## [Checking for existing SSH keys](https://help.github.com/en/github/authenticating-to-github/checking-for-existing-ssh-keys)
 ```
-1.	Open Git Bash.
-2.	Enter ls -al ~/.ssh to see if existing SSH keys are present:
-3.	$ ls -al ~/.ssh
+1. Open Git Bash.
+2. Enter ls -al ~/.ssh to see if existing SSH keys are present:
+3. $ ls -al ~/.ssh
 ```
 ## Lists the files in your .ssh directory, if they exist
 Check the directory listing to see if you already have a public SSH key. By default, the filenames of the public keys are one of the following:
