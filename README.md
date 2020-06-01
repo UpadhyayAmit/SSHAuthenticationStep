@@ -1,6 +1,6 @@
 # Authenticate with SSH in git
 
-## Checking for existing SSH keys
+## [Checking for existing SSH keys](https://help.github.com/en/github/authenticating-to-github/checking-for-existing-ssh-keys)
 ```
 1.	Open Git Bash.
 2.	Enter ls -al ~/.ssh to see if existing SSH keys are present:
@@ -19,7 +19,7 @@ If you don't have an existing public and private key pair, or don't wish to use 
 If you see an existing public and private key pair listed (for example id_rsa.pub and id_rsa) that you would like to use to connect to GitHub, you can add your SSH key to the ssh-agent.
 
 
-## Generating a new SSH key
+## [Generating a new SSH key](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 ```
 1.	Open Git Bash.
 2.	Paste the text below, substituting in your GitHub email address.
@@ -63,12 +63,13 @@ $ ssh-add ~/.ssh/id_rsa
 
 If your SSH key file has a different name than the example code, modify the filename to match your current setup. When copying your key, don't add any newlines or whitespace.
 
-# Adding a new SSH key to your GitHub account
+# [Adding a new SSH key to your GitHub account](https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
 ```
 $ clip < ~/.ssh/id_rsa.pub
 ```
 # Copies the contents of the id_rsa.pub file to your clipboard
 - Click New SSH key or Add SSH key.
+
 # if Timeout occurs
 ```
 - ssh -T -p 443 git@ssh.github.com
