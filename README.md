@@ -61,5 +61,9 @@ $ clip < ~/.ssh/id_rsa.pub
 
 # Copies the contents of the id_rsa.pub file to your clipboard
 - Click New SSH key or Add SSH key.
+# if Timeout occurs
+- ssh -T -p 443 git@ssh.github.com
+
+
 
 
